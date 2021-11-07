@@ -1,2 +1,2 @@
-# fnf-vs-john
-A Friday Night Funkin mod made with Kade Engine as well as 
+# Friday Night Funkin: Vs John
+Friday Night Funkin vs John
