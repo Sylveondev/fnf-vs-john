@@ -119,6 +119,8 @@ class MainMenuState extends MusicBeatState
 					}});
 			else
 				menuItem.y = 60 + (i * 160);
+				menuItem.x = 25;
+				
 		}
 
 		firstStart = false;

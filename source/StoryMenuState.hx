@@ -28,27 +28,17 @@ class StoryMenuState extends MusicBeatState
 	{
 		return [
 			['Tutorial'],
-			['Bopeebo', 'Fresh', 'Dad Battle'],
-			['Spookeez', 'South', "Monster"],
-			['Pico', 'Philly Nice', "Blammed"],
-			['Satin Panties', "High", "Milf"],
-			['Cocoa', 'Eggnog', 'Winter Horrorland'],
-			['Senpai', 'Roses', 'Thorns'],
-			['Johnroll','Busta','Brazil']
+			['Johnroll','Busta','Brazil'],
+			['if-you-feel-my-love']
 		];
 	}
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true,true,true,true,true,true,true,true];
+	public static var weekUnlocked:Array<Bool> = [true,true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['', 'bf', 'gf'],
-		['dad', 'bf', 'gf'],
-		['spooky', 'bf', 'gf'],
-		['pico', 'bf', 'gf'],
-		['mom', 'bf', 'gf'],
-		['parents-christmas', 'bf', 'gf'],
-		['senpai', 'bf', 'gf'],
+		['','bf','gf'],
 		['','bf','gf']
 	];
 
@@ -194,6 +184,8 @@ class StoryMenuState extends MusicBeatState
 		sprDifficulty.animation.addByPrefix('easy', 'EASY');
 		sprDifficulty.animation.addByPrefix('normal', 'NORMAL');
 		sprDifficulty.animation.addByPrefix('hard', 'HARD');
+		sprDifficulty.animation.addByPrefix('hell', 'HELL');
+		sprDifficulty.animation.addByPrefix('troll', 'TROLL');
 		sprDifficulty.animation.play('easy');
 		changeDifficulty();
 
@@ -392,8 +384,8 @@ class StoryMenuState extends MusicBeatState
 		curDifficulty += change;
 
 		if (curDifficulty < 0)
-			curDifficulty = 2;
-		if (curDifficulty > 2)
+			curDifficulty = 4;
+		if (curDifficulty > 4)
 			curDifficulty = 0;
 
 		sprDifficulty.offset.x = 0;
@@ -408,6 +400,12 @@ class StoryMenuState extends MusicBeatState
 				sprDifficulty.offset.x = 70;
 			case 2:
 				sprDifficulty.animation.play('hard');
+				sprDifficulty.offset.x = 20;
+			case 3:
+				sprDifficulty.animation.play('hell');
+				sprDifficulty.offset.x = 20;
+			case 4:
+				sprDifficulty.animation.play('troll');
 				sprDifficulty.offset.x = 20;
 		}
 
