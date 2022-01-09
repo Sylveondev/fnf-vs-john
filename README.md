@@ -15,6 +15,7 @@ The mod uses scripts from other mods, so I'm crediting them like a good boy
 Because I'm legally obligated to share what copyrighted songs are in the game, or I'm fucked.
 > Braxy Girls - If you feel my love : [Spotify](https://open.spotify.com/album/6KRcYAXKUT6JP0eO8A7kk6) [Lyrics](https://genius.com/Blaxy-girls-if-you-feel-my-love-lyrics) (Not the chaow mix, sorry)
 > **[Scrapped]** Draft Punk - Harder, Better, Faster, Stronger : [Spotify](https://open.spotify.com/track/5W3cjX2J3tjhG8zb6u0qHn) [Lyrics](https://genius.com/Daft-punk-harder-better-faster-stronger-lyrics) (Charting isn't finished, removed from freeplay list.)
+> Irony - Claris and Irony Circulation (It's a mashup chart)
 
 ### Secrets
 :flushed: Not telling, but I can say that some old songs that never made it into the mod are in the files, as well as HBFS
