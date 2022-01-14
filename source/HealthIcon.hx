@@ -41,6 +41,9 @@ class HealthIcon extends FlxSprite
 		animation.add('john', [24, 25], 0, false, isPlayer);
 		animation.add('johnmad', [24, 25], 0, false, isPlayer);
 		animation.add('johninsane', [28, 29], 0, false, isPlayer);
+		animation.add('oldjohn', [41, 42], 0, false, isPlayer);
+		animation.add('oldjohnmad', [41, 42], 0, false, isPlayer);
+		animation.add('oldjohninsane', [43, 44], 0, false, isPlayer);
 		animation.add('unfair-john', [40], 0, false, isPlayer);
 		animation.add('circle', [26, 27], 0, false, isPlayer);
 		animation.add('cat', [28, 29], 0, false, isPlayer);

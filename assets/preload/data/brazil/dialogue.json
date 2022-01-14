@@ -1,0 +1,81 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "WhAt the Fuck happEned to his left arm and right leg"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "cope"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Alr lets dip"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Dammit look what you did boyfriend, now we have to die which happens alot in almost every other mod. Feel bad yet?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "cope"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Ima finish this guy off and we can go to dearest street."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hold on just gimme your left kidney real quick. I need to die you."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "I win"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "this'll be too easy. He only wants my left kidney (I collect them from everyone I battled. Don't tell anyone.)"
+		}
+	]
+}

@@ -279,11 +279,11 @@ class StoryMenuState extends MusicBeatState
 
 					if (gamepad.justPressed.DPAD_RIGHT)
 					{
-						changeDifficulty(1);
+						changeDifficulty(1,curWeek);
 					}
 					if (gamepad.justPressed.DPAD_LEFT)
 					{
-						changeDifficulty(-1);
+						changeDifficulty(-1,curWeek);
 					}
 				}
 
@@ -308,9 +308,9 @@ class StoryMenuState extends MusicBeatState
 					leftArrow.animation.play('idle');
 
 				if (controls.RIGHT_P)
-					changeDifficulty(1);
+					changeDifficulty(1,curWeek);
 				if (controls.LEFT_P)
-					changeDifficulty(-1);
+					changeDifficulty(-1,curWeek);
 			}
 
 			if (controls.ACCEPT)
@@ -379,14 +379,24 @@ class StoryMenuState extends MusicBeatState
 		}
 	}
 
-	function changeDifficulty(change:Int = 0):Void
+	function changeDifficulty(change:Int = 0,weeknum:Int = 0):Void
 	{
 		curDifficulty += change;
-
-		if (curDifficulty < 0)
+		
+		switch(weeknum){
+		  case 1:
+		    if (curDifficulty < 0)
 			curDifficulty = 4;
-		if (curDifficulty > 4)
+			if (curDifficulty > 4)
 			curDifficulty = 0;
+		  case 2:
+		    curDifficulty = 1;
+		  default:
+			if (curDifficulty < 0)
+			curDifficulty = 2;
+			if (curDifficulty > 2)
+			curDifficulty = 0;
+		}
 
 		sprDifficulty.offset.x = 0;
 
@@ -433,6 +443,8 @@ class StoryMenuState extends MusicBeatState
 			curWeek = 0;
 		if (curWeek < 0)
 			curWeek = weekData().length - 1;
+			
+		changeDifficulty(0,curWeek);
 
 		var bullShit:Int = 0;
 

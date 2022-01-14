@@ -8,14 +8,14 @@ function update(elapsed) -- arguments, how long it took to complete a frame
 	if distractions == 0 then return end
 	local currentBeat = (songPos / 1000)*(bpm/60)
 	if currentBeat == 35 then
-		setHudZoom(1.1)
-		setCamZoom(1.2)
+		setHudZoom(8.1)
+		setCamZoom(8)
 		tweenHudZoom(0.7,0.2)
         tweenCamZoom(0.7,0.2)	
 	end
 	if currentBeat == 69 then
-		setHudZoom(1.1)
-		setCamZoom(1.2)
+		setHudZoom(8.1)
+		setCamZoom(8)
 		tweenHudZoom(0.7,0.2)
         tweenCamZoom(0.7,0.2)	
 	end
@@ -29,8 +29,8 @@ function update(elapsed) -- arguments, how long it took to complete a frame
 	end
 	
 	if currentBeat == 203 then
-		setHudZoom(1.1)
-		setCamZoom(1.2)
+		setHudZoom(8.1)
+		setCamZoom(8)
 		tweenHudZoom(0.7,0.2)
         tweenCamZoom(0.7,0.2)	
 	end

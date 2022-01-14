@@ -229,7 +229,6 @@ class FreeplayState extends MusicBeatState
 		var upP = FlxG.keys.justPressed.UP;
 		var downP = FlxG.keys.justPressed.DOWN;
 		var accepted = controls.ACCEPT;
-
 		var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 
 		if (gamepad != null)
@@ -244,11 +243,11 @@ class FreeplayState extends MusicBeatState
 			}
 			if (gamepad.justPressed.DPAD_LEFT)
 			{
-				changeDiff(-1);
+				changeDiff(-1,songs[curSelected].songName);
 			}
 			if (gamepad.justPressed.DPAD_RIGHT)
 			{
-				changeDiff(1);
+				changeDiff(1,songs[curSelected].songName);
 			}
 		}
 
@@ -262,9 +261,9 @@ class FreeplayState extends MusicBeatState
 		}
 
 		if (FlxG.keys.justPressed.LEFT)
-			changeDiff(-1);
+			changeDiff(-1,songs[curSelected].songName);
 		if (FlxG.keys.justPressed.RIGHT)
-			changeDiff(1);
+			changeDiff(1,songs[curSelected].songName);
 
 		if (controls.BACK)
 		{
@@ -300,17 +299,24 @@ class FreeplayState extends MusicBeatState
 		}
 	}
 
-	function changeDiff(change:Int = 0)
+	function changeDiff(change:Int = 0, curweek:String = "tutorial")
 	{	
+		
+		var cursong = songs[curSelected].songName;
 		curDifficulty += change;
-		switch (songs[curSelected].songName){
-		case 'if-you-feel-my-love':
-			curDifficulty = 2;
-		default:
-			if (curDifficulty < 0)
-				curDifficulty = 4;
+		switch(curSelected){
+		  case 1 | 2 | 3:
+		    if (curDifficulty < 0)
+			curDifficulty = 4;
 			if (curDifficulty > 4)
-				curDifficulty = 0;
+			curDifficulty = 0;
+		  case 4 | 5 | 6 | 7:
+		    curDifficulty = 1;
+		  default:
+			if (curDifficulty < 0)
+			curDifficulty = 2;
+			if (curDifficulty > 2)
+			curDifficulty = 0;
 		}
 
 		// adjusting the highscore song name to be compatible (changeDiff)
@@ -348,6 +354,7 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
+		
 		#if !switch
 		// NGio.logEvent('Fresh');
 		#end
@@ -378,6 +385,7 @@ class FreeplayState extends MusicBeatState
 		}
 
 		#if !switch
+		changeDiff(0);
 		intendedScore = Highscore.getScore(songHighscore, curDifficulty);
 		combo = Highscore.getCombo(songHighscore, curDifficulty);
 		// lerpScore = 0;

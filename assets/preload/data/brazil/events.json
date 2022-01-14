@@ -1,0 +1,79 @@
+{
+	"song": {
+		"speed": 4,
+		"stage": "house",
+		"player1": "bf",
+		"player2": "johninsane",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				937.5,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				1875,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				2812.5,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				7500,
+				[
+					[
+						"Screen Shake",
+						"256,0.002",
+						"256,0.01"
+					]
+				]
+			],
+			[
+				138750,
+				[
+					[
+						"Hey!",
+						"1",
+						"2"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "no-gf",
+		"bpm": 256,
+		"arrowSkin": "",
+		"needsVoices": false,
+		"song": "Brazil"
+	}
+}

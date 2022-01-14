@@ -4613,6 +4613,12 @@ class PlayState extends MusicBeatState
 		{
 			boyfriend.playAnim('hey', true);
 		}
+		
+		if (curBeat == 50 && curSong == 'Earrape')
+		{
+			boyfriend.playAnim('hey', true);
+			gf.playAnim('cheer', true);
+		}
 
 		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 		{

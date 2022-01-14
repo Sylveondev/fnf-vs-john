@@ -275,6 +275,23 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
+			case 'oldjohn':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/OLD_JOHN');
+				frames = tex;
+				animation.addByPrefix('idle', 'John idle dance', 24);
+				animation.addByPrefix('singUP', 'John Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'John Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
 			case 'unfair-john':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/UNFAIRJOHN');
@@ -312,6 +329,40 @@ class Character extends FlxSprite
 			case 'johninsane':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/JOHNinsane');
+				frames = tex;
+				animation.addByPrefix('idle', 'John idle dance', 24);
+				animation.addByPrefix('singUP', 'John Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'John Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
+			case 'oldjohnmad':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/OLD_JOHNmad');
+				frames = tex;
+				animation.addByPrefix('idle', 'John idle dance', 24);
+				animation.addByPrefix('singUP', 'John Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'John Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
+			case 'oldjohninsane':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/OLD_JOHNinsane');
 				frames = tex;
 				animation.addByPrefix('idle', 'John idle dance', 24);
 				animation.addByPrefix('singUP', 'John Sing Note UP', 24);

@@ -2,4 +2,8 @@ Tutorial:gf:0
 Johnroll:john:1
 Busta:john:1
 Brazil:johninsane:1
+Fancy:john:1
+Earrape:unfair-john:1
 If you feel my love:circle:2
+Irony circulation:circle:2
+oldBrazil:oldjohninsane:3

@@ -14,10 +14,6 @@
 	<SubTexture name="John idle dance0009" x="1" y="1" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John idle dance0010" x="1" y="1" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note LEFT0000" x="1" y="799" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note LEFT0001" x="465" y="799" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note LEFT0002" x="929" y="799" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note LEFT0003" x="11393" y="799" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note LEFT0004" x="11393" y="799" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note DOWN0000" x="1" y="1597" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note DOWN0001" x="465" y="1597" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note DOWN0002" x="929" y="1597" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
@@ -29,9 +25,5 @@
 	<SubTexture name="John Sing Note UP0003" x="11393" y="2395" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note UP0004" x="929" y="2395" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	<SubTexture name="John Sing Note RIGHT0000" x="1" y="3193" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note RIGHT0001" x="465" y="3193" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note RIGHT0002" x="929" y="3193" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note RIGHT0003" x="11393" y="3193" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
-	<SubTexture name="John Sing Note RIGHT0004" x="11393" y="3193" width="464" height="798" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
 	
 </TextureAtlas>
