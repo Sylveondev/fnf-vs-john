@@ -1,0 +1,88 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Heh, still got it after 4 seconds"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh fuck"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh shit, I'm disolving"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Hey don't use big boy words. This is a family friendly rhythm game created by the Muffin man, Engine created by Shadow Mario (not sponsored) and perfected by the-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "We get it boyfriend"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "k"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Alr we gon' dip and find Dearest street."
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ". . ."
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No                       lmao + lol +cope + skill issue + you're + ratio-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh no this is a traditional fnf mod where characters get angrier until the final song when they transform into evil person and try to kill us"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "poggers"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Weirdo        (My insides are melting)"
+		}
+	]
+}

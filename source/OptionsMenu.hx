@@ -40,7 +40,11 @@ class OptionsMenu extends MusicBeatState
 			new CustomizeGameplay("Drag and drop gameplay modules to your prefered positions!")
 		]),
 		new OptionCategory("Appearance", [
-			new DistractionsAndEffectsOption("Toggle stage distractions that can hinder your gameplay."),
+			#if desktop
+			new DistractionsAndEffectsOption("Toggle distractions and modcharts that can make your gameplay fuckin awesome."),
+			#else
+			new DistractionsAndEffectsOption("Modchart support is not available on your platform! Disables distractions."),
+			#end
 			new CamZoomOption("Toggle the camera zoom in-game."),
 			new StepManiaOption("Sets the colors of the arrows depending on quantization instead of direction."),
 			new AccuracyOption("Display accuracy information on the info bar."),
@@ -58,9 +62,9 @@ class OptionsMenu extends MusicBeatState
 			new MissSoundsOption("Toggle miss sounds playing when you don't hit a note."),
 			new ScoreScreen("Show the score screen after the end of a song"),
 			new ShowInput("Display every single input on the score screen."),
-			new Optimization("No characters or backgrounds. Just a usual rhythm game layout."),
+			new Optimization("No characters or backgrounds. Just a usual rhythm game layout. In short, it sucks."),
 			new GraphicLoading("On startup, cache every character. Significantly decrease load times. (HIGH MEMORY)"),
-			new BotPlay("Showcase your charts and mods with autoplay.")
+			new BotPlay("Showcase how much of a pussy you are with autoplay.")
 		]),
 		
 		new OptionCategory("Saves and Data", [

@@ -1,0 +1,123 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "God dammit, I got lost again..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey you."
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I got lost, how about telling me where Dearest street is."
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I don't know where that is."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Ok first of all, talk faster. Second, do you know who you're talking to?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What's taking so long?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "This ass won't tell us where Dearest street is."
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I don't know where Dearest street is."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Alr you asked for it."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Oh fuck, run stranger, run!"
+		},
+		{
+			"speed": 0.2,
+			"portrait": "john",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Why"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm going to use my bf powers to force you to"
+		},
+		{
+			"speed": 0.2,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "S   I   N   G   .   .   . <3"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "john",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Oh no, anything but that. I beg!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Here we go again..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		}
+	]
+}
