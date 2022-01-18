@@ -275,6 +275,39 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
+			case 'dave':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/DAVE');
+				frames = tex;
+				animation.addByPrefix('idle', 'Dave idle dance', 24);
+				animation.addByPrefix('singUP', 'Dave Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'Dave Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'Dave Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'Dave Sing Note LEFT', 24);
+				animation.addByPrefix('singUP-alt', 'Davis Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT-alt', 'Davis Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN-alt', 'Davis Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT-alt', 'Davis Sing Note LEFT', 24);
+				animation.addByPrefix('singUP-loop', 'Dave Sing Loop UP', 24);
+				animation.addByPrefix('singRIGHT-loop', 'Dave Sing Loop RIGHT', 24);
+				animation.addByPrefix('singDOWN-loop', 'Dave Sing Loop DOWN', 24);
+				animation.addByPrefix('singLEFT-loop', 'Dave Sing Loop LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+				addOffset("singUP-alt", -6, 50);
+				addOffset("singRIGHT-alt", 0, 27);
+				addOffset("singLEFT-alt", -10, 10);
+				addOffset("singDOWN-alt", 0, -30);
+				addOffset("singUP-loop", -6, 50);
+				addOffset("singRIGHT-loop", 0, 27);
+				addOffset("singLEFT-loop", -10, 10);
+				addOffset("singDOWN-loop", 0, -30);
+
+				playAnim('idle');
 			case 'oldjohn':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/OLD_JOHN');

@@ -49,6 +49,7 @@ class HealthIcon extends FlxSprite
 		animation.add('cat', [28, 29], 0, false, isPlayer);
 		animation.add('funsize-john', [34, 35], 0, false, isPlayer);
 		animation.add('funsize-whitty', [32, 33], 0, false, isPlayer);
+		animation.add('dave', [45, 45], 0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)
