@@ -31,7 +31,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
-          haxelib setup ~/haxelib
+          haxelib setup C:/haxelib
           haxelib install lime 7.9.0
           haxelib install openfl
           haxelib install flixel
@@ -49,7 +49,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install actuate
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
-          lime rebuild extension-webm html5
+          haxelib run lime rebuild extension-webm html5
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
       - name: Compile
@@ -74,7 +74,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
-          haxelib setup ~/haxelib
+          haxelib setup C:/haxelib
           haxelib install lime 7.9.0
           haxelib install openfl
           haxelib install flixel
@@ -92,7 +92,7 @@ jobs:
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib install actuate
           haxelib git extension-webm https://github.com/KadeDev/extension-webm
-          lime rebuild extension-webm windows
+          haxelib run lime rebuild extension-webm windows
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
       - name: Compile
