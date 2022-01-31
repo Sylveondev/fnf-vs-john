@@ -310,7 +310,7 @@ class FreeplayState extends MusicBeatState
 			curDifficulty = 4;
 			if (curDifficulty > 4)
 			curDifficulty = 0;
-		  case 4 | 5 | 6 | 7 | 8 | 9 | 10 :
+		  case 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11:
 		    curDifficulty = 1;
 		  default:
 			if (curDifficulty < 0)
