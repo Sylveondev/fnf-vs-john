@@ -29,7 +29,7 @@ class StoryMenuState extends MusicBeatState
 		return [
 			['Tutorial'],
 			['Johnroll','Busta','Brazil'],
-			['if-you-feel-my-love']
+			['if-you-feel-my-love','irony-circulation','native']
 		];
 	}
 	var curDifficulty:Int = 1;
