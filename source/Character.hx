@@ -764,7 +764,6 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 				
-				flipx = true;
 				
 			case 'senpai':
 				frames = Paths.getSparrowAtlas('characters/senpai');
