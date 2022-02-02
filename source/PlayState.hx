@@ -1103,6 +1103,11 @@ class PlayState extends MusicBeatState
 				SONG.player1 = 'funsize-whitty';
 				char1 = 'funsize-whitty';
 			}
+		if (storyChar == 3)
+			{
+				SONG.player1 = 'john-player';
+				char1 = 'john-player';
+			}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
 
