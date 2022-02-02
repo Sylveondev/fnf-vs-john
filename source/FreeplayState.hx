@@ -149,6 +149,8 @@ class FreeplayState extends MusicBeatState
 				charIcon.animation.play('funsize-john');
 			case 2:
 				charIcon.animation.play('funsize-whitty');
+			case 3:
+				charIcon.animation.play('john-player');
 		}
 		charIcon.setPosition(charText.x - 100, comboText.y + 10);
 		charIcon.scale.set(0.5, 0.5);
@@ -338,7 +340,7 @@ class FreeplayState extends MusicBeatState
 		{
 			curCharacter++;
 	
-			if (curCharacter > 2)
+			if (curCharacter > 3)
 				curCharacter = 0;
 	
 			switch (curCharacter)
@@ -349,6 +351,8 @@ class FreeplayState extends MusicBeatState
 					charIcon.animation.play('funsize-john');
 				case 2:
 					charIcon.animation.play('funsize-whitty');
+				case 3:
+					charIcon.animation.play('john-player');
 			}
 		}
 
