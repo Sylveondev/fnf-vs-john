@@ -1,153 +1,138 @@
 {
 	"animations": [
 		{
+			"anim": "singLEFT",
+			"name": "John Sing Note LEFT",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
 			"offsets": [
 				-9,
-				10
-			],
-			"loop": false,
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
+				110
+			]
 		},
 		{
-			"offsets": [
-				0,
-				-30
-			],
-			"loop": false,
 			"anim": "singDOWN",
+			"name": "John Sing Note DOWN",
 			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				41,
+				114
+			]
 		},
 		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": false,
 			"anim": "singUP",
+			"name": "John Sing Note UP",
 			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				64,
+				108
+			]
 		},
 		{
-			"offsets": [
-				0,
-				27
-			],
-			"loop": false,
 			"anim": "singRIGHT",
+			"name": "John Sing Note RIGHT",
 			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
-		},
-		{
+			"indices": [],
 			"offsets": [
 				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
+				125
+			]
+		},
+		{
 			"anim": "idle-loop",
+			"name": "John idle dance",
+			"fps": 24,
+			"loop": true,
 			"indices": [
-				10,
+				0,
 				11,
 				12,
-				12
+				1
 			],
-			"name": "Dad idle dance"
+			"offsets": [
+				16,
+				127
+			]
 		},
 		{
+			"anim": "singLEFT-loop",
+			"name": "John Sing Note RIGHT",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				13,
+				14
+			],
 			"offsets": [
 				-9,
 				10
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			]
 		},
 		{
+			"anim": "singRIGHT-loop",
+			"name": "John Sing Note RIGHT",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				3,
+				1
+			],
 			"offsets": [
 				0,
 				27
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			]
 		},
 		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": true,
-			"fps": 24,
 			"anim": "singUP-loop",
+			"name": "John Sing Note UP",
+			"fps": 24,
+			"loop": true,
 			"indices": [
-				56,
+				6,
 				57,
 				58,
-				59
+				5
 			],
-			"name": "Dad Sing Note UP"
+			"offsets": [
+				64,
+				108
+			]
 		},
 		{
-			"loop": false,
-			"offsets": [
-				140,
-				-100
-			],
-			"anim": "hey",
+			"anim": "idle",
+			"name": "John idle dance",
 			"fps": 24,
-			"name": "WhatYouKnowAboutRollingDownInTheDeep",
-			"indices": []
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				20,
+				127
+			]
 		}
 	],
-	"no_antialiasing": false,
-	"image": "characters/DADDY_DEAREST",
+	"image": "characters/JOHN",
+	"scale": 1,
+	"sing_duration": 6.1,
+	"healthicon": "john",
 	"position": [
 		0,
 		0
-	],
-	"healthicon": "dad",
-	"flip_x": false,
-	"healthbar_colors": [
-		175,
-		102,
-		206
 	],
 	"camera_position": [
 		0,
 		0
 	],
-	"sing_duration": 6.1,
-	"scale": 1
+	"flip_x": false,
+	"no_antialiasing": false,
+	"healthbar_colors": [
+		255,
+		182,
+		146
+	]
 }
