@@ -24,8 +24,22 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
+		['Vs John Team'],
+		['Spongebob',			'spongebob',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob1',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob2',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob3',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob4',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob5',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob6',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob7',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob8',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob9',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Spongebob',			'spongebob10',		'Mod developer',						'https://twitter.com/spongebob7989b', 0xFFFFDD33],
+		['Join the spongey discord',	'discord',		'Press enter on your keyboard to go to the server invite',	'https://discord.gg/ynZMdg7cd7', 0xFF7289DA],
+		[''],
 		['Psych Engine Team'],
-		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
+		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFF242423],
 		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
 		[''],
 		['Engine Contributors'],
