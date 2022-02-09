@@ -4519,7 +4519,9 @@ class PlayState extends MusicBeatState
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 		
-		if (curStep == 50 && curSong == "native")
+		if (curStep > 50 && curSong == "native"){
+			
+		}
 
 		// Updating Discord Rich Presence (with Time Left)
 		DiscordClient.changePresence(detailsText
@@ -4594,6 +4596,12 @@ class PlayState extends MusicBeatState
 			{
 				FlxG.camera.zoom += 0.015;
 				camHUD.zoom += 0.03;
+			}
+			
+			if (curSong.toLowerCase() == 'native' && curBeat >= 64 && curBeat < 224 && camZooming && FlxG.camera.zoom < 1.35)
+			{
+				FlxG.camera.zoom += 0.05;
+				camHUD.zoom += 0.08;
 			}
 		}
 
