@@ -4518,6 +4518,8 @@ class PlayState extends MusicBeatState
 		#if windows
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
+		
+		if (curStep == 50 && curSong == "native")
 
 		// Updating Discord Rich Presence (with Time Left)
 		DiscordClient.changePresence(detailsText
