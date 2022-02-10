@@ -52,6 +52,8 @@ class HealthIcon extends FlxSprite
 		animation.add('funsize-whitty', [32, 33], 0, false, isPlayer);
 		animation.add('dave', [45, 46], 0, false, isPlayer);
 		animation.add('aflac', [47, 48], 0, false, isPlayer);
+		animation.add('reject', [49], 0, false, isPlayer);
+		animation.add('recovered-project', [50, 51], 0, false, isPlayer);
 		animation.play(char);
 
 		switch(char)
