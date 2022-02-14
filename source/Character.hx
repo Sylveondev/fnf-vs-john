@@ -269,10 +269,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'reject':
@@ -286,10 +286,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'recovered-project':
@@ -329,18 +329,14 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT-loop', 'Dave Sing Loop LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
-				addOffset("singUP-alt", -6, 50);
-				addOffset("singRIGHT-alt", 0, 27);
+				addOffset("singDOWN", 0, 0);
+				addOffset("singUP-alt", 0, 0);
+				addOffset("singRIGHT-alt", 0, -10);
 				addOffset("singLEFT-alt", -10, 10);
-				addOffset("singDOWN-alt", 0, -30);
-				addOffset("singUP-loop", -6, 50);
-				addOffset("singRIGHT-loop", 0, 27);
-				addOffset("singLEFT-loop", -10, 10);
-				addOffset("singDOWN-loop", 0, -30);
+				addOffset("singDOWN-alt", 0, 0);
 
 				playAnim('idle');
 			case 'aflac':
@@ -362,18 +358,14 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT-loop', 'Dave Sing Loop LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
-				addOffset("singUP-alt", -6, 50);
-				addOffset("singRIGHT-alt", 0, 27);
+				addOffset("singDOWN", 0, 0);
+				addOffset("singUP-alt", 0, 0);
+				addOffset("singRIGHT-alt", 0, -10);
 				addOffset("singLEFT-alt", -10, 10);
-				addOffset("singDOWN-alt", 0, -30);
-				addOffset("singUP-loop", -6, 50);
-				addOffset("singRIGHT-loop", 0, 27);
-				addOffset("singLEFT-loop", -10, 10);
-				addOffset("singDOWN-loop", 0, -30);
+				addOffset("singDOWN-alt", 0, 0);
 
 				playAnim('idle');
 			case 'oldjohn':
@@ -387,10 +379,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'unfair-john':
@@ -404,10 +396,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'johnmad':
@@ -421,10 +413,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'johninsane':
@@ -438,10 +430,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'oldjohnmad':
@@ -455,10 +447,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'oldjohninsane':
@@ -472,27 +464,27 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
 			case 'circle':
 				// JOHN ANIMATIONS SUCK BAD
 				tex = Paths.getSparrowAtlas('characters/CIRCLE', 'shared');
 				frames = tex;
-				animation.addByPrefix('idle', 'Circle idle dance', 24);
-				animation.addByPrefix('singUP', 'Circle Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Circle Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Circle Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Circle Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'Circle idle dance', 24, false);
+				animation.addByPrefix('singUP', 'Circle Sing Note UP', 24, false);
+				animation.addByPrefix('singRIGHT', 'Circle Sing Note RIGHT', 24, false);
+				animation.addByPrefix('singDOWN', 'Circle Sing Note DOWN', 24, false);
+				animation.addByPrefix('singLEFT', 'Circle Sing Note LEFT', 24, false);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 	
 				playAnim('idle');
 			case 'cat':
@@ -506,10 +498,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Circle Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
 				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singDOWN", 0, 0);
 	
 				playAnim('idle');
 			case 'pico':
@@ -784,17 +776,17 @@ class Character extends FlxSprite
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/JOHN');
 				frames = tex;
-				animation.addByPrefix('idle', 'John idle dance', 24, false);
-				animation.addByPrefix('singUP', 'John Sing Note UP', 24, false);
-				animation.addByPrefix('singRIGHT', 'John Sing Note LEFT', 24, false);
-				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24, false);
-				animation.addByPrefix('singLEFT', 'John Sing Note RIGHT', 24, false);
-
-				addOffset('idle', 10);
-				addOffset("singUP", 16, 50);
-				addOffset("singRIGHT", 10, 27);
-				addOffset("singLEFT", 10, 10);
-				addOffset("singDOWN", 10, -30);
+				animation.addByPrefix('idle', 'John idle dance', 24);
+				animation.addByPrefix('singUP', 'John Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'John Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
+				
+				addOffset('idle', 10, 25);
+				addOffset("singUP", 16, 25);
+				addOffset("singRIGHT", 10, 25);
+				addOffset("singLEFT", 10, 25);
+				addOffset("singDOWN", 10, 25);
 
 				playAnim('idle');
 				
