@@ -4606,38 +4606,46 @@ class PlayState extends MusicBeatState
 			if (curSong.toLowerCase() == 'discarded')
 			{
 				if (curBeat == 288){
-					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					Modchart.changeDadCharacter('recovered-project');
+					remove(dad);
+					dad = new Character(100, 100, 'recovered-project');
+					add(dad);
+					iconP2.animation.play(dad.curCharacter);
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 452){
-					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					Modchart.changeDadCharacter('reject');
+					remove(dad);
+					dad = new Character(100, 100, 'reject');
+					add(dad);
+					iconP2.animation.play(dad.curCharacter);
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 484){
-					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					Modchart.changeDadCharacter('recovered-project');
+					remove(dad);
+					dad = new Character(100, 100, 'recovered-project');
+					add(dad);
+					iconP2.animation.play(dad.curCharacter);
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 580){
-					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					Modchart.changeDadCharacter('reject');
+					remove(dad);
+					dad = new Character(100, 100, 'reject');
+					add(dad);
+					iconP2.animation.play(dad.curCharacter);
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
