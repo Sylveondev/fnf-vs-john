@@ -4600,8 +4600,8 @@ class PlayState extends MusicBeatState
 			
 			if (curSong.toLowerCase() == 'native' && curBeat >= 64 && curBeat < 224 && camZooming && FlxG.camera.zoom < 1.35)
 			{
-				FlxG.camera.zoom += 0.05;
-				camHUD.zoom += 0.08;
+				FlxG.camera.zoom += 0.5;
+				camHUD.zoom += 0.65;
 			}
 		}
 
