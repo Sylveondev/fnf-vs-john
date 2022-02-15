@@ -4603,6 +4603,33 @@ class PlayState extends MusicBeatState
 				FlxG.camera.zoom += 0.5;
 				camHUD.zoom += 0.65;
 			}
+			if (curSong.toLowerCase() == 'discarded')
+			{
+				if (curBeat == 288){
+					FlxG.camera.zoom += 0.5;
+					camHUD.zoom += 0.65;
+					dad.curCharacter = 'recovered-project';
+					FlxG.camera.flash(FlxColor.WHITE, 4);
+				}
+				if (curBeat == 452){
+					FlxG.camera.zoom += 0.5;
+					camHUD.zoom += 0.65;
+					dad.curCharacter = 'reject';
+					FlxG.camera.flash(FlxColor.WHITE, 4);
+				}
+				if (curBeat == 484){
+					FlxG.camera.zoom += 0.5;
+					camHUD.zoom += 0.65;
+					dad.curCharacter = 'recovered-project';
+					FlxG.camera.flash(FlxColor.WHITE, 4);
+				}
+				if (curBeat == 580){
+					FlxG.camera.zoom += 0.5;
+					camHUD.zoom += 0.65;
+					dad.curCharacter = 'reject';
+					FlxG.camera.flash(FlxColor.WHITE, 4);
+				}
+			}
 		}
 
 		iconP1.setGraphicSize(Std.int(iconP1.width + 30));
