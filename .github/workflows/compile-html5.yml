@@ -42,15 +42,15 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install lime 7.9.0 --quiet
-          haxelib install openfl --quiet
-          haxelib git flixel https://github.com/Spongeyboi/baskdixel.git
+          haxelib git openfl https://github.com/MasterEric/openfl.git
+          haxelib git flixel https://github.com/MasterEric/flixel.git
           haxelib run lime setup
           haxelib run lime setup flixel
           haxelib install flixel-tools --quiet
           haxelib run flixel-tools setup
           haxelib install flixel-addons --quiet
           haxelib install flixel-ui --quiet
-          haxelib install hscript --quiet
+          haxelib git https://github.com/MasterEric/hscript
           haxelib install newgrounds --quiet
           haxelib install linc_luajit --quiet
           haxelib git faxe https://github.com/uhrobots/faxe
