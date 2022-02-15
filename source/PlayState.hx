@@ -4606,7 +4606,7 @@ class PlayState extends MusicBeatState
 			if (curSong.toLowerCase() == 'discarded')
 			{
 				if (curBeat == 288){
-					var Modchart = ModchartState
+					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
@@ -4615,7 +4615,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 452){
-					var Modchart = ModchartState
+					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
@@ -4624,7 +4624,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 484){
-					var Modchart = ModchartState
+					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
@@ -4633,7 +4633,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 580){
-					var Modchart = ModchartState
+					var Modchart = ModchartState;
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
