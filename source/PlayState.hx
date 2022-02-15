@@ -4608,25 +4608,57 @@ class PlayState extends MusicBeatState
 				if (curBeat == 288){
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
-					dad.curCharacter = 'recovered-project';
+					
+					var id = "recovered-project";
+					var olddadx = this.dad.x;
+					var olddady = this.dad.y;
+					this.instance.removeObject(this.dad);
+					this.dad = new Character(olddadx, olddady, id);
+					this.instance.addObject(this.dad);
+					this.instance.iconP2.animation.play(id);
+					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 452){
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
-					dad.curCharacter = 'reject';
+					
+					var id = "reject";
+					var olddadx = this.dad.x;
+					var olddady = this.dad.y;
+					this.instance.removeObject(this.dad);
+					this.dad = new Character(olddadx, olddady, id);
+					this.instance.addObject(this.dad);
+					this.instance.iconP2.animation.play(id);
+					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 484){
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
-					dad.curCharacter = 'recovered-project';
+					
+					var id = "recovered-project";
+					var olddadx = this.dad.x;
+					var olddady = this.dad.y;
+					this.instance.removeObject(this.dad);
+					this.dad = new Character(olddadx, olddady, id);
+					this.instance.addObject(this.dad);
+					this.instance.iconP2.animation.play(id);
+					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 				if (curBeat == 580){
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
-					dad.curCharacter = 'reject';
+					
+					var id = "reject";
+					var olddadx = this.dad.x;
+					var olddady = this.dad.y;
+					this.instance.removeObject(this.dad);
+					this.dad = new Character(olddadx, olddady, id);
+					this.instance.addObject(this.dad);
+					this.instance.iconP2.animation.play(id);
+					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
 			}
