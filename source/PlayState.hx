@@ -4609,13 +4609,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					var id = "recovered-project";
-					var olddadx = this.dad.x;
-					var olddady = this.dad.y;
-					this.instance.removeObject(this.dad);
-					this.dad = new Character(olddadx, olddady, id);
-					this.instance.addObject(this.dad);
-					this.instance.iconP2.animation.play(id);
+					ModchartState.changeDadCharacter('recovered-project');
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
@@ -4623,13 +4617,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					var id = "reject";
-					var olddadx = this.dad.x;
-					var olddady = this.dad.y;
-					this.instance.removeObject(this.dad);
-					this.dad = new Character(olddadx, olddady, id);
-					this.instance.addObject(this.dad);
-					this.instance.iconP2.animation.play(id);
+					ModchartState.changeDadCharacter('reject');
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
@@ -4637,13 +4625,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					var id = "recovered-project";
-					var olddadx = this.dad.x;
-					var olddady = this.dad.y;
-					this.instance.removeObject(this.dad);
-					this.dad = new Character(olddadx, olddady, id);
-					this.instance.addObject(this.dad);
-					this.instance.iconP2.animation.play(id);
+					ModchartState.changeDadCharacter('recovered-project');
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
@@ -4651,13 +4633,7 @@ class PlayState extends MusicBeatState
 					FlxG.camera.zoom += 0.5;
 					camHUD.zoom += 0.65;
 					
-					var id = "reject";
-					var olddadx = this.dad.x;
-					var olddady = this.dad.y;
-					this.instance.removeObject(this.dad);
-					this.dad = new Character(olddadx, olddady, id);
-					this.instance.addObject(this.dad);
-					this.instance.iconP2.animation.play(id);
+					ModchartState.changeDadCharacter('reject');
 					
 					FlxG.camera.flash(FlxColor.WHITE, 4);
 				}
