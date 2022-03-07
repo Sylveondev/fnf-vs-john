@@ -374,7 +374,7 @@ class ChartingState extends MusicBeatState
 		addOptionsUI();
 		
 		//Remove events ui on html. I promise this will make sense.
-		#if !html
+		#if sys
 		addEventsUI();
 		#end
 
