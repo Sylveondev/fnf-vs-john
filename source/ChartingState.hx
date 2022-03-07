@@ -372,7 +372,11 @@ class ChartingState extends MusicBeatState
 		addNoteUI();
 
 		addOptionsUI();
+		
+		//Remove events ui on html. I promise this will make sense.
+		#if !html
 		addEventsUI();
+		#end
 
 		regenerateLines();
 		
