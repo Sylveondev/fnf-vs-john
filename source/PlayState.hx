@@ -931,6 +931,55 @@ class PlayState extends MusicBeatState
 
 						//add(stageCurtains);
 					}
+				case 'sky':
+					{
+						defaultCamZoom = 0.9;
+						curStage = 'sky';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('skybg'));
+						if(FlxG.save.data.antialiasing)
+							{
+								bg.antialiasing = true;
+							}
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+
+						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('skyground'));
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						if(FlxG.save.data.antialiasing)
+							{
+								stageFront.antialiasing = true;
+							}
+						stageFront.scrollFactor.set(0.9, 0.9);
+						stageFront.active = false;
+						add(stageFront);
+
+						//var stageCurtains:FlxSprite = new FlxSprite(-500, -300).loadGraphic(Paths.image('housepoles'));
+						//stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+						//stageCurtains.updateHitbox();
+						//if(FlxG.save.data.antialiasing)
+						//	{
+						//		stageCurtains.antialiasing = true;
+						//	}
+						//stageCurtains.scrollFactor.set(1.3, 1.3);
+						//stageCurtains.active = false;
+
+						//add(stageCurtains);
+					}
+				case 'dave':
+					{
+						defaultCamZoom = 0.9;
+						curStage = 'dave';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave'));
+						if(FlxG.save.data.antialiasing)
+							{
+								bg.antialiasing = true;
+							}
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+					}
 				default:
 					{
 						defaultCamZoom = 0.9;
