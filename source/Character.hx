@@ -328,7 +328,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 			case 'recovered-project':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/RECOVERED_PROJECT_01');
+				tex = Paths.getSparrowAtlas('characters/RECOVERED');
 				frames = tex;
 				animation.addByPrefix('idle', 'IDLE', 24);
 				animation.addByPrefix('singUP', 'UP', 24);
