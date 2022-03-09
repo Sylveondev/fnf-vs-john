@@ -275,6 +275,23 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, 0);
 
 				playAnim('idle');
+			case 'sun':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/SUN');
+				frames = tex;
+				animation.addByPrefix('idle', 'John idle dance', 24);
+				animation.addByPrefix('singUP', 'John Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'John Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'John Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'John Sing Note LEFT', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 0, 0);
+				addOffset("singRIGHT", 0, -10);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, 0);
+
+				playAnim('idle');
 			case 'mars':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/MARS');
@@ -311,7 +328,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 			case 'recovered-project':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/recovered_project_3');
+				tex = Paths.getSparrowAtlas('characters/RECOVERED_PROJECT_01');
 				frames = tex;
 				animation.addByPrefix('idle', 'IDLE', 24);
 				animation.addByPrefix('singUP', 'UP', 24);
@@ -320,10 +337,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
-				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
 
 				playAnim('idle');
 			
