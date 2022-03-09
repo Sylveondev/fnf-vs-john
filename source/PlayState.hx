@@ -933,28 +933,21 @@ class PlayState extends MusicBeatState
 					}
 				case 'sky':
 					{
-						defaultCamZoom = 0.9;
 						curStage = 'sky';
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('skybg'));
-						if(FlxG.save.data.antialiasing)
-							{
-								bg.antialiasing = true;
-							}
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('SkyBg'));
+						bg.antialiasing = true;
 						bg.scrollFactor.set(0.9, 0.9);
 						bg.active = false;
 						add(bg);
 
-						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('skyground'));
+						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('SkyGrass'));
 						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 						stageFront.updateHitbox();
-						if(FlxG.save.data.antialiasing)
-							{
-								stageFront.antialiasing = true;
-							}
+						stageFront.antialiasing = true;
 						stageFront.scrollFactor.set(0.9, 0.9);
 						stageFront.active = false;
 						add(stageFront);
-
+						
 						//var stageCurtains:FlxSprite = new FlxSprite(-500, -300).loadGraphic(Paths.image('housepoles'));
 						//stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
 						//stageCurtains.updateHitbox();
