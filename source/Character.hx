@@ -12,6 +12,8 @@ class Character extends FlxSprite
 	public var animOffsets:Map<String, Array<Dynamic>>;
 	public var debugMode:Bool = false;
 
+	public var furiosityScale:Float = 1.02;
+
 	public var isPlayer:Bool = false;
 	public var curCharacter:String = 'bf';
 
@@ -328,7 +330,7 @@ class Character extends FlxSprite
 				playAnim('idle');
 			case 'recovered-project':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/RECOVERED');
+				tex = Paths.getSparrowAtlas('characters/recovered_project_3');
 				frames = tex;
 				animation.addByPrefix('idle', 'IDLE', 24);
 				animation.addByPrefix('singUP', 'UP', 24);
@@ -341,6 +343,7 @@ class Character extends FlxSprite
 				addOffset("singRIGHT");
 				addOffset("singLEFT");
 				addOffset("singDOWN");
+				setGraphicSize(Std.int(765 * furiosityScale),Std.int(903 * furiosityScale));
 
 				playAnim('idle');
 			
